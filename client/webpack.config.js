@@ -20,16 +20,18 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'TODOs List'
+        title: 'J.A.T.E'
       }),
       new InjectManifest({
-        swSrc: './src/src-sw.js',
-        swDest: 'service-worker.js'
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js'
       }),
       new WebpackPwaManifest({
-        name: 'TODOs',
-        short_name: 'TODOs',
-        description: 'Keep track of important tasks!',
+        fingerprints: false,
+        inject: true,
+        name: 'J.A.T.E',
+        short_name: 'JATE',
+        description: 'Text Editor running in browser',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
         start_url: './',
