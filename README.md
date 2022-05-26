@@ -8,16 +8,16 @@ The PWA: Text Editor is a web application that uses indexdb to create a database
 ## Table of Contents
 - [Utilize the Challenge](#utilize-the-challenge)
 - [Screenshot](#screenshot)
-- [Video Walkthrough](#video-walkthrough)
+- [Heroku Link](#heroku-link)
 - [Acknowledgements](#acknowledgements)
 - [Contact Me](#contact-me)
+
 
 ## Utilize the Challenge
 To run this program you can do one of two things, you can go to the heroku app, ( https://rocky-hollows-64966.herokuapp.com/), you can open up the integrated terminal.  Run build the project.  Then npm run start to open the application on local host 3000.  You can open this on an open browser.  It will prompt you to install in which a new application is applied to your computer.  I opened up chrome apps and opened J.A.T.E.  From this moment, you can enter in text and it is stored in your local indexdb in the application area of the webpage.  
 
 ## Screenshot
-![Screenshot]()
-
+![Screenshot](19_JATE_TextEditor.png)
 
 ## Heroku Link
 [Heroku Link]( https://rocky-hollows-64966.herokuapp.com/)
